@@ -1,6 +1,6 @@
 # 02. Potentiometer
 
-![](code/02_potentiometer.png)
+![](gfx/02_potentiometer.png)
 
 ```ino
 /*  02. Blinking LED fast/slow according to potentiometer

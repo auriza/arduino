@@ -1,6 +1,6 @@
 # 04. Multiple LED
 
-![](code/04_multiled.png)
+![](gfx/04_multiled.png)
 
 ```ino
 /*  04. Multiple LED  */

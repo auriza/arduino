@@ -1,3 +1,8 @@
+# 07. Temperature sensor
+
+![](gfx/07_temp.png)
+
+```ino
 /*  07. LM35 temperature sensor
         https://www.ti.com/lit/ds/symlink/lm35.pdf
 */
@@ -21,3 +26,4 @@ void loop() {
 float getVoltage(int pin) {
   return (analogRead(pin)/1024.0 * 5);
 }
+```

@@ -1,6 +1,6 @@
 # 05. Push buttons
 
-![](code/05_pushbutton.png)
+![](gfx/05_pushbutton.png)
 
 ```ino
 /*  05. Push buttons */

@@ -13,12 +13,12 @@ Jika port serial tidak dikenali pada Linux, tambahkan *user* ke grup
 sudo adduser $USER dialout
 ```
 
-## Setting *board* selain Uno
+## Setting Board Selain Uno
 
 ### Arduino Nano
 
 - *Tools -- Board -- Arduino Nano*
-- *Tools -- Processer -- ATmega328P (Old Bootloader)*
+- *Tools -- Processor -- ATmega328P (Old Bootloader)*
 - *Tools -- Serial Port -- /dev/ttyUSB0*
 
 ### Wemos D1 mini (ESP8266)
@@ -28,14 +28,20 @@ sudo adduser $USER dialout
 - *Tools -- Board -- LOLIN(WEMOS) D1 R2 & mini*
 - *Tools -- Serial Port -- /dev/ttyUSB0*
 
-## Referensi bahasa pemrograman
+## Referensi Bahasa Pemrograman
 
 <https://www.arduino.cc/reference>
 
 ## Pinout
 
-![](https://content.arduino.cc/assets/Pinout-UNOrev3_latest.png)
+Arduino Uno
 
-![](https://content.arduino.cc/assets/Pinout-NANO_latest.png)
+![](ref/Arduino-Uno-Pinout-1.png)
 
-![](https://diyi0t.com/wp-content/uploads/2019/06/WeMosD1Mini_pinout.png)
+Arduino Nano
+
+![](ref/Arduino-Nano-Pinout-1.png)
+
+WeMos D1 mini
+
+![](ref/WeMosD1Mini_pinout.png)

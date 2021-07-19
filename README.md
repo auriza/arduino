@@ -4,7 +4,8 @@
     - tugas: mengatur terang-redup LED dengan potensiometer
 2. [RGB LED](03_rgb.md), [multiple LED](04_multiled.md), [push button](05_pushbutton.md)
     - tugas: merancang lampu penyeberangan pejalan kaki
-3. Photoresistor, temperature sensor, LCD
+3. [Photoresistor[(06_photoresistor.md), [temperature sensor](07_temp.md), [LCD](15_lcdscreen.md)
+    - tugas: menampilkan data sensor ke LCD
 4. Servo motor, flex sensor, buzzer
 5. DC motor, relay
 6. IoT temperature sensor

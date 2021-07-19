@@ -1,6 +1,6 @@
 # 03. RGB LED
 
-![](code/03_rgb.png)
+![](gfx/03_rgb.png)
 
 ```ino
 /*  03  RGB LED

@@ -1,3 +1,8 @@
+# 06. Photoresistor
+
+![](gfx/06_photoresistor.png)
+
+```ino
 /*  06. Photoresistor
         https://www.falstad.com/circuit/e-voltdivide.html
         https://tinyurl.com/yerrf5nd
@@ -19,3 +24,4 @@ void loop() {
 
   analogWrite(LED, level);                      // 8-bit
 }
+```

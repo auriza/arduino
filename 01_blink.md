@@ -1,6 +1,6 @@
 # 01. Blinking LED
 
-![](code/01_blink.png)
+![](gfx/01_blink.png)
 
 ```ino
 /*  01. Blinking LED
