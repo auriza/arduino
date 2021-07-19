@@ -4,7 +4,6 @@
 
 ```ino
 /*  06. Photoresistor
-        https://www.falstad.com/circuit/e-voltdivide.html
         https://tinyurl.com/yerrf5nd
 */
 #define LED  9

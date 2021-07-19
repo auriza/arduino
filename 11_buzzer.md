@@ -3,7 +3,9 @@
 ![](gfx/11_buzzer.png)
 
 ```ino
-/*  11. Buzzer */
+/*  11. Buzzer
+        https://www.arduino.cc/reference/en/language/functions/advanced-io/tone
+*/
 
 #define BUZZER  9
 

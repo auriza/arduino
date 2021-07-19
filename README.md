@@ -8,8 +8,10 @@
     - _tugas_: menampilkan data sensor ke LCD
 4. [Servo motor](08_servo.md), [flex sensor](09_flex.md), [buzzer](11_buzzer.md)
     - _tugas_: merancang pintu otomatis atau alarm
-5. DC motor, relay
-6. IoT temperature sensor
+5. [DC motor](12_motor.md), [relay](13_relay.md)
+    - _tugas_: merancang lampu otomatis
+6. [IoT temperature sensor](16_iot.md)
+    - _tugas_: merancang IoT pemantau lingkungan
 
 **Download**:
 - [SIK 3.3 Manual](https://cdn.sparkfun.com/datasheets/Kits/SIK/V33/SIK%203.3%20Manual.pdf)
