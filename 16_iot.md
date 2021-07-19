@@ -5,49 +5,57 @@
 - Wemos D1 mini
 - OLED 128x64 SSD1306
 - LM35
+- ThingSpeak API
 
 ```ino
 #include <Adafruit_SSD1306.h>
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
 
+#define SSID  "CB-06"
+#define PASS  "1sampai10"
+#define KEY   "XXXXXX"
+
 Adafruit_SSD1306 oled(-1);
-float            cTemp;
 
 void setup() {
+  Serial.begin(115200);
   oled.begin();
   oled.setTextColor(WHITE);
-  WiFi.begin("SSID", "Password");
-  while (WiFi.status() != WL_CONNECTED)
-    delay(500);
-  Serial.begin(115200);
+  WiFi.begin(SSID, PASS);
+  while (WiFi.status() != WL_CONNECTED) delay(500);
   Serial.println(WiFi.localIP());
 }
 
 void loop() {
-  float mV = analogRead(A0)/1024.0 * 3300;
-  Tc = mV / 10;                             // LM35 output: 10 mV/°C
-  show_temp();
+  float Tc = get_temp();
+  show_temp(Tc);
   if (WiFi.status() == WL_CONNECTED)
-    send_data();
-  delay(30000);
+    send_data(Tc);
+  delay(20000);
 }
 
-void send_data() {
-  WiFiClient client; HTTPClient http;
-  http.begin(client, "http://api.thingspeak.com/update");
+float get_temp() {
+  float mV = analogRead(A0)/1024.0 * 3300;          // 10 mV/°C
+  return mV / 10;
+}
+
+void send_data(float Tc) {
+  WiFiClient wifi;
+  HTTPClient http;
+  http.begin(wifi, "http://api.thingspeak.com/update");
   http.addHeader("Content-Type", "application/x-www-form-urlencoded");
-  int status = http.POST("api_key=________&field1=" + String(Tc) + "&field2=" + WiFi.RSSI());
+  int status = http.POST("api_key=KEY&field1=" + String(Tc) + "&field2=" + WiFi.RSSI());
   http.end();
   Serial.println(status);
 }
 
-void show_temp() {
-  Serial.println(cTemp);
+void show_temp(float Tc) {
+  Serial.println(Tc);
   oled.clearDisplay();
   oled.setCursor(0, 0);
   oled.setTextSize(2);
-  oled.print(Tc);
+  oled.print(Tc, 1);
   oled.print("'C");
   oled.display();
 }
