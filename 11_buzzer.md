@@ -11,7 +11,7 @@
 
 char notes[] = {'B', 'B', 'B', ' ', 'B', 'B', ' ', 'B', 'B', 'B', ' '};
 int  beats[] = { 1 ,  1 ,  1 ,  1 ,  2 ,  2 ,  1 ,  1 ,  1 ,  1 ,  8 };
-int  tempo   = 160;
+int  tempo   = 150;
 
 void setup() {
   pinMode(BUZZER, OUTPUT);

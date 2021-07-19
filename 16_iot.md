@@ -2,9 +2,9 @@
 
 ![](gfx/16_iot.png)
 
-- Wemos D1 mini
+- Wemos D1 mini ([setup](https://github.com/auriza/arduino/blob/main/00_arduino.md#wemos-d1-mini-esp8266))
 - OLED 128x64 SSD1306
-- LM35
+- LM35 temperature sensor
 - ThingSpeak API
 
 ```ino

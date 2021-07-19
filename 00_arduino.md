@@ -1,10 +1,11 @@
 # Arduino
 
-## Instalasi
+## Instalasi IDE
 
 Panduan instalasi untuk:
 - Linux <https://www.arduino.cc/en/Guide/Linux>
 - Windows <https://www.arduino.cc/en/Guide/Windows>
+- Portable <https://www.arduino.cc/en/Guide/PortableIDE>
 
 Jika port serial tidak dikenali pada Linux, tambahkan *user* ke grup
 `dialout` dengan perintah berikut, lalu logout.
