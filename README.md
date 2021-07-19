@@ -7,5 +7,5 @@
 5. DC motor, relay
 6. IoT temperature sensor
 
-- [Manual SIK 3.3](https://cdn.sparkfun.com/datasheets/Kits/SIK/V33/SIK%203.3%20Manual.pdf)
-- [Invoice pembelian](invoice.pdf)
+[Manual SIK 3.3](https://cdn.sparkfun.com/datasheets/Kits/SIK/V33/SIK%203.3%20Manual.pdf)<br>
+[Invoice pembelian](invoice.pdf)
