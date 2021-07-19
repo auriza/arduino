@@ -32,6 +32,10 @@ sudo adduser $USER dialout
 
 <https://www.arduino.cc/reference>
 
-## Pinout Uno
+## Pinout
 
-![Arduino Uno]("datasheet/Pinout Uno R3.png")
+![](https://content.arduino.cc/assets/Pinout-UNOrev3_latest.png)
+
+![](https://content.arduino.cc/assets/Pinout-NANO_latest.png)
+
+![](https://diyi0t.com/wp-content/uploads/2019/06/WeMosD1Mini_pinout.png)
