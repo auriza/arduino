@@ -24,13 +24,15 @@ void loop() {
 
 # 15. LCD screen I2C
 
+![](gfx/15_lcdscreen_i2c.png)
+
 **I2C Wiring**
 
 ```
 Device      Arduino Uno/Nano    WeMos D1 mini
 ------      ----------------    -------------
-VCC         5V                  3V3/5V
-GND         GND                 GND
+VCC         5V                  3V3
+GND         GND                 G
 SDA         SDA (A4)            SDA (D2)
 SCL         SCL (A5)            SCL (D1)
 ```

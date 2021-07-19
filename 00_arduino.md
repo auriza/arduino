@@ -34,14 +34,14 @@ sudo adduser $USER dialout
 
 ## Pinout
 
-Arduino Uno
+### Arduino Uno
 
 ![](ref/Arduino-Uno-Pinout-1.png)
 
-Arduino Nano
+### Arduino Nano
 
 ![](ref/Arduino-Nano-Pinout-1.png)
 
-WeMos D1 mini
+### WeMos D1 mini
 
 ![](ref/WeMosD1Mini_pinout.png)
