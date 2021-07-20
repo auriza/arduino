@@ -18,10 +18,10 @@ void setup() {
 }
 
 void loop() {
-  while (!Serial.available());          // wait until available
-
-  int angle = Serial.parseInt();
-  Serial.println(angle);
-  servo.write(angle);
+  if (Serial.available()) {
+    int angle = Serial.parseInt();
+    Serial.println(angle);
+    servo.write(angle);
+  }
 }
 ```

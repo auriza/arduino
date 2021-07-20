@@ -10,7 +10,7 @@
     - _tugas_: merancang pintu otomatis atau alarm
 5. [DC motor](12_motor.md), [relay](13_relay.md)
     - _tugas_: merancang lampu otomatis
-6. [IoT temperature sensor](16_iot.md)
+6. [OLED](16_oled.md), [IoT ThingSpeak](16_iot.md)
     - _tugas_: merancang IoT pemantau lingkungan
 
 **Download**:

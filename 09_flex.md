@@ -17,7 +17,7 @@ void setup() {
 
 void loop() {
   int flex  = analogRead(A0);
-  int angle = map(flex, 750, 950, 0, 180);
+  int angle = map(flex, 0, 1023, 0, 180);
 
   Serial.print(flex);
   Serial.print(", ");

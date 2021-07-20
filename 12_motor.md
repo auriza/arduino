@@ -41,12 +41,11 @@ void serialSpeed() {
   Serial.println("Type a speed (0-255), then press [Enter]");
 
   while (true) {
-    while (!Serial.available());
-
-    int speed = Serial.parseInt();
-    speed = constrain(speed, 0, 255);
-    Serial.println(speed);
-    analogWrite(MOTOR, speed);
+    if (Serial.available()) {
+      int speed = Serial.parseInt();
+      Serial.println(speed);
+      analogWrite(MOTOR, speed);
+    }
   }
 }
 ```

@@ -4,7 +4,7 @@
 
 ```ino
 /*  14. Shift register
-        http://www.sparkfun.com/datasheets/IC/SN74HC595.pdf
+        https://lastminuteengineers.com/74hc595-shift-register-arduino-tutorial/
 */
 
 // serial peripheral interface (SPI) pin
@@ -21,12 +21,11 @@ void setup() {
 }
 
 void loop() {
-  //oneAfterAnother();
+  oneAfterAnother();
   //oneOnAtATime();
   //pingPong();
   //randomLED();
-  //marquee();
-  binaryCount();
+  //binaryCount();
 }
 
 void shiftWrite(int pin, boolean state) {
@@ -73,16 +72,6 @@ void randomLED() {
   shiftWrite(i, HIGH);
   delay(100);
   shiftWrite(i, LOW);
-}
-
-void marquee() {
-  for (int i = 0; i <= 3; i++) {
-    shiftWrite(i, HIGH);
-    shiftWrite(i+4, HIGH);                  // skip four
-    delay(200);
-    shiftWrite(i, LOW);
-    shiftWrite(i+4, LOW);
-  }
 }
 
 void binaryCount() {
