@@ -6,7 +6,7 @@
 - OLED 128x64 SSD1306 (library: `Adafruit_SSD1306_Wemos_Mini_OLED`)
 - LM35 temperature sensor
 
-```
+```ino
 /*  16. OLED display
     https://lastminuteengineers.com/oled-display-arduino-tutorial/
 */
