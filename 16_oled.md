@@ -28,7 +28,7 @@ void loop() {
 }
 
 float get_temp() {
-  float mV = analogRead(A0)/1024.0 * 3300;          // 10 mV/°C
+  float mV = analogRead(A0)/1024.0 * 3200;          // 10 mV/°C
   return mV / 10;
 }
 

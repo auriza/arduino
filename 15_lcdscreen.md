@@ -19,6 +19,7 @@ void setup() {
 void loop() {
   lcd.setCursor(0, 1);
   lcd.print(millis());
+  delay(50);
 }
 ```
 
@@ -29,12 +30,12 @@ void loop() {
 **I2C Wiring**
 
 ```
-Device      Arduino Uno/Nano    WeMos D1 mini
-------      ----------------    -------------
-VCC         5V                  3V3
-GND         GND                 G
-SDA         SDA (A4)            SDA (D2)
-SCL         SCL (A5)            SCL (D1)
+Device      Arduino     WeMos D1
+------      -------     --------
+VCC         5V          3V3/5V
+GND         GND         G
+SDA         SDA (A4)    SDA (D2)
+SCL         SCL (A5)    SCL (D1)
 ```
 
 ```ino
@@ -54,5 +55,10 @@ void setup() {
 void loop() {
   lcd.setCursor(0, 1);
   lcd.print(millis());
+  delay(50);
 }
 ```
+
+## LCD Character Codes
+
+![](gfx/lcd_char_codes.png)

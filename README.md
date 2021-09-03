@@ -4,7 +4,7 @@
     - _tugas_: mengatur terang-redup LED dengan potensiometer
 2. [RGB LED](03_rgb.md), [multiple LED](04_multiled.md), [push button](05_pushbutton.md)
     - _tugas_: merancang lampu penyeberangan pejalan kaki
-3. [Photoresistor](06_photoresistor.md), [temperature sensor](07_temp.md), [LCD](15_lcdscreen.md)
+3. [Photoresistor](06_photoresistor.md), temperature sensor [LM35](07_temp.md), [DHT11](07_temp-dht11.md), [LCD](15_lcdscreen.md)
     - _tugas_: menampilkan data sensor ke LCD
 4. [Servo motor](08_servo.md), [flex sensor](09_flex.md), [buzzer](11_buzzer.md)
     - _tugas_: merancang pintu otomatis atau alarm
