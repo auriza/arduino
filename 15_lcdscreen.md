@@ -12,11 +12,11 @@ LiquidCrystal lcd(2, 3, 4, 5, 6, 7);    // rs, en, d4, d5, d6, d7
 
 void setup() {
   lcd.begin(16, 2);                     // chars, rows
-  lcd.clear();
-  lcd.print("Hello, world!");
 }
 
 void loop() {
+  lcd.clear();
+  lcd.print("Time elapsed:");
   lcd.setCursor(0, 1);
   lcd.print(millis());
   delay(50);
@@ -49,10 +49,11 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);     // addr, chars, rows
 void setup() {
   lcd.init();
   lcd.backlight();
-  lcd.print("Hello, world!");
 }
 
 void loop() {
+  lcd.clear();
+  lcd.print("Time elapsed:");
   lcd.setCursor(0, 1);
   lcd.print(millis());
   delay(50);
