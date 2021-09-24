@@ -10,7 +10,7 @@
     - _tugas_: merancang servo tester
 5. [DC motor](12_motor.md), [relay](13_relay.md), [relay module](13_relay-module.md), [sonar](17_sonar.md)
     - _tugas_: merancang lampu otomatis
-6. [OLED](16_oled.md), [IoT ThingSpeak](16_iot.md)
+6. [OLED](16_oled.md), [IoT ThingSpeak](16_iot.md), [DHT11 LCD](18_esp8266-dht.md), [DHT11 IoT](18_esp8266-dht-iot.md)
     - _tugas_: merancang IoT pemantau lingkungan
 
 **Video panduan**: <https://www.youtube.com/playlist?list=PLhVabRaJ2aggXSmnkQvydWundc-z236Gf>

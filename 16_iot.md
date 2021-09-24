@@ -16,7 +16,7 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
 
-#define SSID  "____"
+#define SSID  "________"
 #define PASS  "________"
 
 Adafruit_SSD1306 oled(-1);
