@@ -12,6 +12,8 @@
     - _tugas_: merancang lampu otomatis
 6. [OLED](16_oled.md), [IoT ThingSpeak](16_iot.md), [DHT11 LCD](18_esp8266-dht.md), [DHT11 IoT](18_esp8266-dht-iot.md)
     - _tugas_: merancang IoT pemantau lingkungan
+7. [Motor driver](19_driver.md)
+    - _tugas_: melengkapi kode robot untuk belok kanan dan kiri
 
 **Video panduan**: <https://www.youtube.com/playlist?list=PLhVabRaJ2aggXSmnkQvydWundc-z236Gf>
 
