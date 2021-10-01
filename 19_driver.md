@@ -6,7 +6,7 @@
 - Chassis robot 2WD <https://www.tokopedia.com/solarperfect/motor-smart-robot-car-chassis-kit-2wd-arduino-smarcar-wheel-2-wd>
 - Motor driver: DRV8833 <https://www.tokopedia.com/avarelectric/drv8833-dual-h-bridge-dc-drive-drv-8833-mini-motor-driver-module-merah>
 
-DRV8833 tidak bisa mengeluarkan PWM. Untuk keluaran PWM gunakan motor driver TB6621FNG.
+DRV8833 tidak bisa mengeluarkan PWM. Untuk keluaran PWM gunakan motor driver TB6621FNG (<https://www.tokopedia.com/freelab/tb6612fng-dual-dc-motor-driver-1a>).
 
 ```ino
 /*  19. Motor driver
@@ -21,10 +21,10 @@ DRV8833 tidak bisa mengeluarkan PWM. Untuk keluaran PWM gunakan motor driver TB6
     D6        STBY
     D7        BIN1
     D8        BIN2
-              A01       Pin1
-              A02       Pin2
-              B02               Pin2
-              B01               Pin1
+              AO1       Pin1
+              AO2       Pin2
+              BO2               Pin2
+              BO1               Pin1
 */
 
 #define AIN2 4
